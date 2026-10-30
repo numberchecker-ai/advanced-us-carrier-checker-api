@@ -35,7 +35,7 @@
     {
       "type": "us_carrier_premium",
       "name": "Advanced US Carrier Checker",
-      "min": 2000,
+      "min": 1,
       "max": 10000000,
       "fields": [
         "Number",
@@ -43,11 +43,14 @@
         "carrier",
         "city"
       ],
-      "fields_note": "Live sample currently contains Number, number_type, carrier, and city only."
+      "fields_note": "Live sample currently contains Number, number_type, carrier, and city only.",
+      "product_id": 73,
+      "min_billable_numbers": 100,
+      "available": true
     }
   ],
   "pricing_url": "https://numberchecker.ai/pricing",
   "maintainer": "NumberChecker",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
